@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>GPA</title>
+</head>
+<body>
+    <h1>Générateur de pseudos</h1>
+    <div class="corps">
+        <div class="choix">
+            <div id="fruits" onclick="choisir(this.id)"></div>
+            <div  id="fleurs" onclick="choisir(this.id)"></div>
+            <div  id="animaux" onclick="choisir(this.id)"></div>
+            <div id="lol" onclick="choisir(this.id)"></div>
+            <div id="marvel" onclick="choisir(this.id)"></div>
+            <div id="wow" onclick="choisir(this.id)"></div>
+            <div id="dbz" onclick="choisir(this.id)"></div>
+            <div id="naruto" onclick="choisir(this.id)"></div>
+            <div id="prenom" onclick="choisir(this.id)"></div>
+            <div id="mots" onclick="choisir(this.id)"></div>
+            <div id="nombres" onclick="choisir(this.id)"></div>
+            <div id="couleur" onclick="choisir(this.id)"></div>
+    
+           
+        </div>
+        <div id="pseudo">Pseudo généré</div>
+        <button type="button" id="bouton" onclick="generate()">Générer</button>
+        <button type="button" id="bouton_2" onclick="reset()">Reset</button>
+        <button type="button" id="bouton_3" onclick="favoris()">Favoris</button>
+        <div class="pied">
+            <div id="favoris">  <h3>Favoris</h3>
+            <div id="un_fav"></div>
+            <div id="deux_fav"></div>
+            <div id="trois_fav"></div>
+            </div>
+            <div id="historique">
+                <div id="un">3- </div>
+                <div id="deux">2-</div>
+                <div id="trois">1-</div>
+                <h3>Historique</h3>
+            </div>
+                
+        </div>
+    </div>
+</body>
+</html>

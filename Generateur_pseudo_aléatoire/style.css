@@ -1,0 +1,165 @@
+body{
+    padding:auto;
+    text-align: center;
+}
+.corps{
+    display:flex;
+    margin:auto;
+    flex-flow:column;
+    height:900px;
+    width:800px;
+    border:2px solid black;
+}
+
+.choix{
+    display:grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(4,1fr);
+    margin-top:30px;
+    align-self: center;
+    flex-flow: row;
+    flex-wrap: wrap;
+    height:400px;
+    width: 600px;
+    border:2px solid black;
+}
+
+.choix div{
+    
+    height:100px;
+    width:100px;
+    
+    margin:auto;
+}
+
+img{
+    width:50px;
+    height: 50px;
+    align-self: center;
+    margin-top:25px;
+}
+#lol{
+    background:url(img/lol.png);
+    background-size:100px 100px;
+}
+
+#wow{
+    background:url(img/wow.png);
+    background-size:100px 100px;
+}
+
+#fruits{
+    background:url(img/fruits.png);
+    background-size:100px 100px;
+}
+
+#fleurs{
+    background:url(img/fleurs.png);
+    background-size:100px 100px;
+}
+
+#dbz{
+    background:url(img/dbz.png);
+    background-size:100px 100px;
+}
+
+#marvel{
+    background:url(img/marvel.png);
+    background-size:100px 100px;
+}
+
+#prenom{
+    background:url(img/prenom.png);
+    background-size:100px 100px;
+}
+
+#naruto{
+    background:url(img/naruto.png);
+    background-size:100px 100px;
+}
+
+#nombres{
+    background:url(img/nombre.png);
+    background-size:100px 100px;
+}
+
+#couleur{
+    background:url(img/couleur.png);
+    background-size:100px 100px;
+}
+
+#animaux{
+    background:url(img/animaux.png);
+    background-size:100px 100px;
+}
+
+#mots{
+    background:url(img/mots.png);
+    background-size:100px 100px;
+}
+
+#pseudo{
+    display:flex;
+    align-self: center;
+    margin-top:30px;
+    height:100px;
+    width:400px;
+    border:2px solid black;
+    justify-content: center;
+    font-size:30px;
+    font-weight: 900px;
+    align-items: center;
+    justify-items: center;
+}
+
+#bouton{
+    height: 50px;
+    width: 100px;
+    margin-top:10px;
+    align-self: center;
+}
+
+#bouton_2{
+    height: 50px;
+    width: 100px;
+    margin-top:20px;
+    align-self: center;
+}
+
+#bouton_3{
+    height: 50px;
+    width: 100px;
+    margin-top:20px;
+    align-self: center;
+}
+
+.pied{
+    display:flex;
+    flex-flow: row;
+    align-self:center;
+    margin-top:10px;
+    height: 200px;
+    width:800px;
+}
+
+#favoris{
+    display:flex;
+    flex-flow: column;
+    height: 160px;
+    width: 300px;
+    margin:auto;
+    border:2px solid black;
+    justify-content:center;
+    
+}
+
+#historique{
+    display:flex;
+    flex-flow: column-reverse;
+    flex-wrap: wrap;
+    height: 160px;
+    width: 300px;
+    margin:auto;
+    border:2px solid black;
+    justify-content:center;
+}
