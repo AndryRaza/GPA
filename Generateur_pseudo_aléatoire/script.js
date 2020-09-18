@@ -120,6 +120,7 @@ function rand_list(liste){
 function reset(){
     list_check=[0,0,0,0,0,0,0,0,0,0,0,0];
     list_historique=[];
+    list_favoris=[];
     txt="";
     document.getElementById("pseudo").innerText="Pseudo généré";
     document.getElementById("favoris").innerHTML="<h3>Favoris</h3>"
